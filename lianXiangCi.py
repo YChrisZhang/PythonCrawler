@@ -8,7 +8,8 @@ from random import choice
 ipList=['120.76.115.134:80','222.83.14.145:3128','119.188.94.145:80']
 thisIp=choice(ipList)
 
-keyWord=urllib.quote('科学')
+input = raw_input("Please input your key words:")
+keyWord=urllib.quote(input)
 
 url='http://search.sina.com.cn/iframe/suggest/index.php?q='+keyWord
 
