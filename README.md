@@ -1,4 +1,4 @@
-Crawler1Qiubai
+#Crawler1Qiubai
 
 Qiubai doesn't need to log in to get its information,so we don't need to make a simulation-login. And I decide to use the following method to craw some information from Qiubai.
 
@@ -10,7 +10,7 @@ Qiubai doesn't need to log in to get its information,so we don't need to make a 
 And after these steps you can read the jokes you craw by yourself from the text-file you've just wrotten.
 
 
-lianXiangCi
+#lianXiangCi
 
 This crawler help you to get the associational words when you type in your key words in the Sina---a kind of seach engine focusing on news.And I implement the crawler by doing the following steps.
 
@@ -24,7 +24,7 @@ This crawler help you to get the associational words when you type in your key w
 And after these steps you can read the associational words related to the word you type in in the text file.
 
 
-getCookie
+#getCookie
 
 When we need to get a cookie from the website we can do it handfully by ourselves or we can use this crawler to achieve the same goal.
 
@@ -36,7 +36,7 @@ When we need to get a cookie from the website we can do it handfully by ourselve
 After these steps we will get the cookie from the target website.
 
 
-simulateLogin
+#simulateLogin
 
 Sometimes we have to log in to visit some kind of websites for their special users,for instance,we need to log in Sina Weibo to visit our own website.So if we need to crawl information like that,we have to make our crawler smarter which means it could simulate a login action.These are the following steps.
 
